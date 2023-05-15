@@ -7,7 +7,7 @@ Feature: Retrieve latitude and longitude from google map
 
   Examples:
   |company|
-  |teststststst|
+  |actualize|
 
 
 
