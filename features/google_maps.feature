@@ -1,15 +1,7 @@
-Feature: Hotel Search
-  Scenario: Extract hotel names from google search
-    Given Indraja is on google homepage
-    And   she opens the google maps link
-    When  she searches for hotels
-    Then  she saves the list of hotel names in the search result
-#    Then she extract the hotel date and save it to a csv file
-
-
-
-
-#Given Indraja is on google homepage
-#    And   she opens the google maps link
-#    When  she searches for hotels
-#    Then  she saves the list of hotel names in the search result
+Feature: Fetch Hotel Details
+  Scenario: Search for hotels in a nearby loaction and retrieve their details
+    Given Indraja opens google search and searchs for google maps
+    When she clicks on the google maps link
+    And she searches for the hotels in Bangalore
+    And she retrieves the details of the 5 hotels
+    Then she saves the hotel names
