@@ -19,4 +19,3 @@ Feature: Retrieve latitude and longitude from google map
 
 
 
-
