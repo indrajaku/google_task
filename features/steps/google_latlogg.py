@@ -1,6 +1,4 @@
-import pdb
 
-import playwright.sync_api
 from behave import given,when, then
 from playwright.sync_api import sync_playwright, expect
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError

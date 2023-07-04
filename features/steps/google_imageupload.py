@@ -1,7 +1,4 @@
 import os
-import pdb
-import time
-
 from behave import given, then, when
 from playwright.sync_api import sync_playwright
 
